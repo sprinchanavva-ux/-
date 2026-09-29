@@ -1,0 +1,1331 @@
+{
+  "n_topics": 8,
+  "topics": {
+    "Тема 1": [
+      "зима",
+      "осень",
+      "красный",
+      "день",
+      "дорожка",
+      "премьера",
+      "the",
+      "рынок",
+      "последний",
+      "chanel",
+      "ресейл",
+      "выручка"
+    ],
+    "Тема 2": [
+      "обувь",
+      "бизнес",
+      "культура",
+      "свитер",
+      "российский",
+      "осень-зима",
+      "картинка",
+      "miu",
+      "герой",
+      "обувной",
+      "редакция",
+      "туфля"
+    ],
+    "Тема 3": [
+      "выглядеть",
+      "осень",
+      "рубашка",
+      "гардероб",
+      "юбка",
+      "пальто",
+      "оттенок",
+      "костюм",
+      "силуэт",
+      "становиться",
+      "брюки",
+      "пара"
+    ],
+    "Тема 4": [
+      "украшение",
+      "стиль",
+      "бриллиант",
+      "кольцо",
+      "мир",
+      "камень",
+      "история",
+      "матч",
+      "собственный",
+      "звезда",
+      "фильм",
+      "розовый"
+    ],
+    "Тема 5": [
+      "человек",
+      "очень",
+      "казаться",
+      "одежда",
+      "показ",
+      "жизнь",
+      "хотеть",
+      "мир",
+      "наш",
+      "просто",
+      "работать",
+      "что-то"
+    ],
+    "Тема 6": [
+      "весна-лето",
+      "осень-зима",
+      "dior",
+      "сумка",
+      "chanel",
+      "жакет",
+      "prada",
+      "miu",
+      "показ",
+      "юбка",
+      "шоу",
+      "veneta"
+    ],
+    "Тема 7": [
+      "представить",
+      "одежда",
+      "каждый",
+      "ткань",
+      "капсула",
+      "день",
+      "работа",
+      "среди",
+      "кампания",
+      "форма",
+      "команда",
+      "новинка"
+    ],
+    "Тема 8": [
+      "джинсы",
+      "лето",
+      "белый",
+      "вариант",
+      "гардероб",
+      "брюки",
+      "выглядеть",
+      "чёрный",
+      "оттенок",
+      "осень",
+      "стиль",
+      "обувь"
+    ]
+  },
+  "documents": [
+    {
+      "id": 1,
+      "source": "theblueprint.ru",
+      "genre": "тенденции",
+      "dominant_topic": 6
+    },
+    {
+      "id": 2,
+      "source": "theblueprint.ru",
+      "genre": "тенденции",
+      "dominant_topic": 6
+    },
+    {
+      "id": 3,
+      "source": "theblueprint.ru",
+      "genre": "мнение",
+      "dominant_topic": 5
+    },
+    {
+      "id": 4,
+      "source": "thesymbol.ru",
+      "genre": "тенденции",
+      "dominant_topic": 8
+    },
+    {
+      "id": 5,
+      "source": "theblueprint.ru",
+      "genre": "тенденции",
+      "dominant_topic": 6
+    },
+    {
+      "id": 6,
+      "source": "theblueprint.ru",
+      "genre": "тенденции",
+      "dominant_topic": 4
+    },
+    {
+      "id": 7,
+      "source": "theblueprint.ru",
+      "genre": "индустрия",
+      "dominant_topic": 5
+    },
+    {
+      "id": 8,
+      "source": "thesymbol.ru",
+      "genre": "герои/лонгрид",
+      "dominant_topic": 4
+    },
+    {
+      "id": 9,
+      "source": "thesymbol.ru",
+      "genre": "выбор/шопинг",
+      "dominant_topic": 8
+    },
+    {
+      "id": 10,
+      "source": "thevoicemag.ru",
+      "genre": "тенденции",
+      "dominant_topic": 3
+    },
+    {
+      "id": 11,
+      "source": "theblueprint.ru",
+      "genre": "тенденции",
+      "dominant_topic": 4
+    },
+    {
+      "id": 12,
+      "source": "theblueprint.ru",
+      "genre": "икона стиля",
+      "dominant_topic": 5
+    },
+    {
+      "id": 13,
+      "source": "theblueprint.ru",
+      "genre": "индустрия/гид",
+      "dominant_topic": 5
+    },
+    {
+      "id": 14,
+      "source": "theblueprint.ru",
+      "genre": "личность/интервью",
+      "dominant_topic": 5
+    },
+    {
+      "id": 15,
+      "source": "theblueprint.ru",
+      "genre": "икона стиля",
+      "dominant_topic": 4
+    },
+    {
+      "id": 16,
+      "source": "theblueprint.ru",
+      "genre": "икона стиля",
+      "dominant_topic": 5
+    },
+    {
+      "id": 17,
+      "source": "thesymbol.ru",
+      "genre": "тенденции",
+      "dominant_topic": 3
+    },
+    {
+      "id": 18,
+      "source": "thesymbol.ru",
+      "genre": "выбор/дайджест",
+      "dominant_topic": 7
+    },
+    {
+      "id": 19,
+      "source": "theblueprint.ru",
+      "genre": "индустрия/финансы",
+      "dominant_topic": 1
+    },
+    {
+      "id": 20,
+      "source": "theblueprint.ru",
+      "genre": "тенденции",
+      "dominant_topic": 5
+    },
+    {
+      "id": 21,
+      "source": "theblueprint.ru",
+      "genre": "тенденции/гид",
+      "dominant_topic": 5
+    },
+    {
+      "id": 22,
+      "source": "theblueprint.ru",
+      "genre": "тенденции",
+      "dominant_topic": 2
+    },
+    {
+      "id": 23,
+      "source": "theblueprint.ru",
+      "genre": "тенденции",
+      "dominant_topic": 4
+    },
+    {
+      "id": 24,
+      "source": "theblueprint.ru",
+      "genre": "тенденции",
+      "dominant_topic": 6
+    },
+    {
+      "id": 25,
+      "source": "theblueprint.ru",
+      "genre": "тенденции",
+      "dominant_topic": 6
+    },
+    {
+      "id": 26,
+      "source": "thesymbol.ru",
+      "genre": "тенденции",
+      "dominant_topic": 3
+    },
+    {
+      "id": 27,
+      "source": "thesymbol.ru",
+      "genre": "тенденции",
+      "dominant_topic": 3
+    },
+    {
+      "id": 28,
+      "source": "thesymbol.ru",
+      "genre": "выбор",
+      "dominant_topic": 8
+    },
+    {
+      "id": 29,
+      "source": "thesymbol.ru",
+      "genre": "тенденции",
+      "dominant_topic": 8
+    },
+    {
+      "id": 30,
+      "source": "thesymbol.ru",
+      "genre": "выбор",
+      "dominant_topic": 8
+    },
+    {
+      "id": 31,
+      "source": "thesymbol.ru",
+      "genre": "икона стиля",
+      "dominant_topic": 4
+    },
+    {
+      "id": 32,
+      "source": "thesymbol.ru",
+      "genre": "икона стиля",
+      "dominant_topic": 4
+    },
+    {
+      "id": 33,
+      "source": "thesymbol.ru",
+      "genre": "икона стиля",
+      "dominant_topic": 4
+    },
+    {
+      "id": 34,
+      "source": "thesymbol.ru",
+      "genre": "герои",
+      "dominant_topic": 8
+    },
+    {
+      "id": 35,
+      "source": "thesymbol.ru",
+      "genre": "герои",
+      "dominant_topic": 5
+    },
+    {
+      "id": 36,
+      "source": "thesymbol.ru",
+      "genre": "герои",
+      "dominant_topic": 2
+    },
+    {
+      "id": 37,
+      "source": "thesymbol.ru",
+      "genre": "герои",
+      "dominant_topic": 1
+    },
+    {
+      "id": 38,
+      "source": "thesymbol.ru",
+      "genre": "герои/репортаж",
+      "dominant_topic": 1
+    },
+    {
+      "id": 39,
+      "source": "thesymbol.ru",
+      "genre": "коллекции",
+      "dominant_topic": 7
+    },
+    {
+      "id": 40,
+      "source": "thesymbol.ru",
+      "genre": "коллекции",
+      "dominant_topic": 5
+    },
+    {
+      "id": 41,
+      "source": "thesymbol.ru",
+      "genre": "коллекции",
+      "dominant_topic": 7
+    },
+    {
+      "id": 42,
+      "source": "thesymbol.ru",
+      "genre": "коллекции",
+      "dominant_topic": 7
+    },
+    {
+      "id": 43,
+      "source": "thesymbol.ru",
+      "genre": "коллекции",
+      "dominant_topic": 7
+    },
+    {
+      "id": 44,
+      "source": "thesymbol.ru",
+      "genre": "украшения",
+      "dominant_topic": 8
+    },
+    {
+      "id": 45,
+      "source": "thesymbol.ru",
+      "genre": "украшения",
+      "dominant_topic": 8
+    },
+    {
+      "id": 46,
+      "source": "thesymbol.ru",
+      "genre": "украшения",
+      "dominant_topic": 4
+    },
+    {
+      "id": 47,
+      "source": "thesymbol.ru",
+      "genre": "украшения",
+      "dominant_topic": 8
+    },
+    {
+      "id": 48,
+      "source": "thesymbol.ru",
+      "genre": "украшения",
+      "dominant_topic": 8
+    },
+    {
+      "id": 49,
+      "source": "theblueprint.ru",
+      "genre": "тенденции",
+      "dominant_topic": 5
+    },
+    {
+      "id": 50,
+      "source": "theblueprint.ru",
+      "genre": "тенденции",
+      "dominant_topic": 1
+    },
+    {
+      "id": 51,
+      "source": "theblueprint.ru",
+      "genre": "тенденции",
+      "dominant_topic": 6
+    },
+    {
+      "id": 52,
+      "source": "theblueprint.ru",
+      "genre": "тенденции",
+      "dominant_topic": 2
+    },
+    {
+      "id": 53,
+      "source": "theblueprint.ru",
+      "genre": "тенденции/дайджест",
+      "dominant_topic": 8
+    },
+    {
+      "id": 54,
+      "source": "theblueprint.ru",
+      "genre": "шопинг",
+      "dominant_topic": 8
+    },
+    {
+      "id": 55,
+      "source": "theblueprint.ru",
+      "genre": "шопинг",
+      "dominant_topic": 6
+    },
+    {
+      "id": 56,
+      "source": "theblueprint.ru",
+      "genre": "шопинг",
+      "dominant_topic": 8
+    },
+    {
+      "id": 57,
+      "source": "theblueprint.ru",
+      "genre": "шопинг",
+      "dominant_topic": 5
+    },
+    {
+      "id": 58,
+      "source": "theblueprint.ru",
+      "genre": "шопинг",
+      "dominant_topic": 2
+    },
+    {
+      "id": 59,
+      "source": "theblueprint.ru",
+      "genre": "шопинг",
+      "dominant_topic": 2
+    },
+    {
+      "id": 60,
+      "source": "theblueprint.ru",
+      "genre": "шопинг",
+      "dominant_topic": 6
+    },
+    {
+      "id": 61,
+      "source": "thesymbol.ru",
+      "genre": "выбор/дайджест",
+      "dominant_topic": 7
+    },
+    {
+      "id": 62,
+      "source": "thesymbol.ru",
+      "genre": "тенденции",
+      "dominant_topic": 3
+    },
+    {
+      "id": 63,
+      "source": "thesymbol.ru",
+      "genre": "тенденции",
+      "dominant_topic": 3
+    },
+    {
+      "id": 64,
+      "source": "thesymbol.ru",
+      "genre": "выбор",
+      "dominant_topic": 8
+    },
+    {
+      "id": 65,
+      "source": "thesymbol.ru",
+      "genre": "выбор",
+      "dominant_topic": 8
+    },
+    {
+      "id": 66,
+      "source": "thesymbol.ru",
+      "genre": "выбор/дайджест",
+      "dominant_topic": 7
+    },
+    {
+      "id": 67,
+      "source": "theblueprint.ru",
+      "genre": "тенденции",
+      "dominant_topic": 5
+    },
+    {
+      "id": 68,
+      "source": "theblueprint.ru",
+      "genre": "тенденции",
+      "dominant_topic": 5
+    },
+    {
+      "id": 69,
+      "source": "theblueprint.ru",
+      "genre": "тенденции",
+      "dominant_topic": 6
+    },
+    {
+      "id": 70,
+      "source": "theblueprint.ru",
+      "genre": "тенденции",
+      "dominant_topic": 5
+    },
+    {
+      "id": 71,
+      "source": "theblueprint.ru",
+      "genre": "тенденции",
+      "dominant_topic": 3
+    },
+    {
+      "id": 72,
+      "source": "theblueprint.ru",
+      "genre": "тенденции/украшения",
+      "dominant_topic": 4
+    },
+    {
+      "id": 73,
+      "source": "theblueprint.ru",
+      "genre": "герои/репортаж",
+      "dominant_topic": 1
+    },
+    {
+      "id": 74,
+      "source": "theblueprint.ru",
+      "genre": "шопинг",
+      "dominant_topic": 6
+    },
+    {
+      "id": 75,
+      "source": "theblueprint.ru",
+      "genre": "тенденции/украшения",
+      "dominant_topic": 4
+    },
+    {
+      "id": 76,
+      "source": "theblueprint.ru",
+      "genre": "тенденции",
+      "dominant_topic": 6
+    },
+    {
+      "id": 77,
+      "source": "theblueprint.ru",
+      "genre": "тенденции",
+      "dominant_topic": 5
+    },
+    {
+      "id": 78,
+      "source": "theblueprint.ru",
+      "genre": "тенденции",
+      "dominant_topic": 6
+    },
+    {
+      "id": 79,
+      "source": "theblueprint.ru",
+      "genre": "тенденции",
+      "dominant_topic": 5
+    },
+    {
+      "id": 80,
+      "source": "theblueprint.ru",
+      "genre": "шопинг",
+      "dominant_topic": 1
+    },
+    {
+      "id": 81,
+      "source": "theblueprint.ru",
+      "genre": "тенденции",
+      "dominant_topic": 6
+    },
+    {
+      "id": 82,
+      "source": "theblueprint.ru",
+      "genre": "тенденции",
+      "dominant_topic": 5
+    },
+    {
+      "id": 83,
+      "source": "theblueprint.ru",
+      "genre": "шопинг",
+      "dominant_topic": 6
+    },
+    {
+      "id": 84,
+      "source": "theblueprint.ru",
+      "genre": "шопинг",
+      "dominant_topic": 8
+    },
+    {
+      "id": 85,
+      "source": "theblueprint.ru",
+      "genre": "шопинг",
+      "dominant_topic": 2
+    },
+    {
+      "id": 86,
+      "source": "thesymbol.ru",
+      "genre": "герои/репортаж",
+      "dominant_topic": 1
+    },
+    {
+      "id": 87,
+      "source": "thesymbol.ru",
+      "genre": "выбор/дайджест",
+      "dominant_topic": 8
+    },
+    {
+      "id": 88,
+      "source": "thesymbol.ru",
+      "genre": "тенденции",
+      "dominant_topic": 3
+    },
+    {
+      "id": 89,
+      "source": "thesymbol.ru",
+      "genre": "тенденции",
+      "dominant_topic": 8
+    },
+    {
+      "id": 90,
+      "source": "thesymbol.ru",
+      "genre": "тенденции",
+      "dominant_topic": 8
+    },
+    {
+      "id": 91,
+      "source": "thesymbol.ru",
+      "genre": "выбор",
+      "dominant_topic": 8
+    },
+    {
+      "id": 92,
+      "source": "thesymbol.ru",
+      "genre": "тенденции/украшения",
+      "dominant_topic": 3
+    },
+    {
+      "id": 93,
+      "source": "thesymbol.ru",
+      "genre": "тенденции",
+      "dominant_topic": 8
+    },
+    {
+      "id": 94,
+      "source": "thesymbol.ru",
+      "genre": "тенденции",
+      "dominant_topic": 3
+    },
+    {
+      "id": 95,
+      "source": "thesymbol.ru",
+      "genre": "тенденции",
+      "dominant_topic": 3
+    },
+    {
+      "id": 96,
+      "source": "thesymbol.ru",
+      "genre": "выбор",
+      "dominant_topic": 3
+    },
+    {
+      "id": 97,
+      "source": "thesymbol.ru",
+      "genre": "выбор",
+      "dominant_topic": 3
+    },
+    {
+      "id": 98,
+      "source": "thesymbol.ru",
+      "genre": "выбор",
+      "dominant_topic": 8
+    },
+    {
+      "id": 99,
+      "source": "thesymbol.ru",
+      "genre": "выбор",
+      "dominant_topic": 3
+    },
+    {
+      "id": 100,
+      "source": "thesymbol.ru",
+      "genre": "тенденции",
+      "dominant_topic": 8
+    },
+    {
+      "id": 101,
+      "source": "snob.ru",
+      "genre": "герои/интервью",
+      "dominant_topic": 5
+    },
+    {
+      "id": 102,
+      "source": "snob.ru",
+      "genre": "тенденции",
+      "dominant_topic": 7
+    },
+    {
+      "id": 103,
+      "source": "snob.ru",
+      "genre": "герои/интервью",
+      "dominant_topic": 3
+    },
+    {
+      "id": 104,
+      "source": "mnenie-red.ru",
+      "genre": "коллекции",
+      "dominant_topic": 5
+    },
+    {
+      "id": 105,
+      "source": "mnenie-red.ru",
+      "genre": "тенденции",
+      "dominant_topic": 6
+    },
+    {
+      "id": 106,
+      "source": "mnenie-red.ru",
+      "genre": "коллекции",
+      "dominant_topic": 6
+    },
+    {
+      "id": 107,
+      "source": "mnenie-red.ru",
+      "genre": "коллекции",
+      "dominant_topic": 8
+    },
+    {
+      "id": 108,
+      "source": "mnenie-red.ru",
+      "genre": "коллекции",
+      "dominant_topic": 7
+    },
+    {
+      "id": 109,
+      "source": "mnenie-red.ru",
+      "genre": "выбор",
+      "dominant_topic": 3
+    },
+    {
+      "id": 111,
+      "source": "mnenie-red.ru",
+      "genre": "герои/репортаж",
+      "dominant_topic": 1
+    },
+    {
+      "id": 112,
+      "source": "mnenie-red.ru",
+      "genre": "герои/репортаж",
+      "dominant_topic": 1
+    },
+    {
+      "id": 113,
+      "source": "mnenie-red.ru",
+      "genre": "герои",
+      "dominant_topic": 6
+    },
+    {
+      "id": 114,
+      "source": "snob.ru",
+      "genre": "герои/интервью",
+      "dominant_topic": 5
+    },
+    {
+      "id": 115,
+      "source": "snob.ru",
+      "genre": "индустрия/гид",
+      "dominant_topic": 7
+    },
+    {
+      "id": 116,
+      "source": "marieclaire.ru",
+      "genre": "шопинг",
+      "dominant_topic": 3
+    },
+    {
+      "id": 117,
+      "source": "marieclaire.ru",
+      "genre": "тенденции",
+      "dominant_topic": 3
+    },
+    {
+      "id": 118,
+      "source": "marieclaire.ru",
+      "genre": "тенденции",
+      "dominant_topic": 3
+    },
+    {
+      "id": 119,
+      "source": "marieclaire.ru",
+      "genre": "шопинг",
+      "dominant_topic": 3
+    },
+    {
+      "id": 120,
+      "source": "marieclaire.ru",
+      "genre": "шопинг",
+      "dominant_topic": 3
+    },
+    {
+      "id": 121,
+      "source": "marieclaire.ru",
+      "genre": "выбор",
+      "dominant_topic": 3
+    },
+    {
+      "id": 122,
+      "source": "marieclaire.ru",
+      "genre": "тенденции",
+      "dominant_topic": 6
+    },
+    {
+      "id": 123,
+      "source": "moskvichka.ru",
+      "genre": "тенденции",
+      "dominant_topic": 8
+    },
+    {
+      "id": 124,
+      "source": "moskvichka.ru",
+      "genre": "мнение",
+      "dominant_topic": 5
+    },
+    {
+      "id": 125,
+      "source": "moskvichka.ru",
+      "genre": "тенденции",
+      "dominant_topic": 8
+    },
+    {
+      "id": 126,
+      "source": "frwf.ru",
+      "genre": "тенденции",
+      "dominant_topic": 8
+    },
+    {
+      "id": 127,
+      "source": "frwf.ru",
+      "genre": "мнение",
+      "dominant_topic": 5
+    },
+    {
+      "id": 128,
+      "source": "frwf.ru",
+      "genre": "шопинг",
+      "dominant_topic": 8
+    },
+    {
+      "id": 129,
+      "source": "posta-magazine.ru",
+      "genre": "тенденции",
+      "dominant_topic": 8
+    },
+    {
+      "id": 130,
+      "source": "posta-magazine.ru",
+      "genre": "коллекции",
+      "dominant_topic": 7
+    },
+    {
+      "id": 131,
+      "source": "posta-magazine.ru",
+      "genre": "герои",
+      "dominant_topic": 5
+    },
+    {
+      "id": 132,
+      "source": "posta-magazine.ru",
+      "genre": "тенденции/гид",
+      "dominant_topic": 4
+    },
+    {
+      "id": 133,
+      "source": "posta-magazine.ru",
+      "genre": "выбор/дайджест",
+      "dominant_topic": 4
+    },
+    {
+      "id": 134,
+      "source": "posta-magazine.ru",
+      "genre": "герои/репортаж",
+      "dominant_topic": 4
+    },
+    {
+      "id": 135,
+      "source": "posta-magazine.ru",
+      "genre": "коллекции",
+      "dominant_topic": 4
+    },
+    {
+      "id": 136,
+      "source": "posta-magazine.ru",
+      "genre": "коллекции",
+      "dominant_topic": 7
+    },
+    {
+      "id": 137,
+      "source": "posta-magazine.ru",
+      "genre": "герои/репортаж",
+      "dominant_topic": 4
+    },
+    {
+      "id": 138,
+      "source": "moskvichka.ru",
+      "genre": "тенденции",
+      "dominant_topic": 3
+    },
+    {
+      "id": 139,
+      "source": "moskvichka.ru",
+      "genre": "тенденции",
+      "dominant_topic": 3
+    },
+    {
+      "id": 140,
+      "source": "moskvichka.ru",
+      "genre": "герои/интервью",
+      "dominant_topic": 5
+    },
+    {
+      "id": 141,
+      "source": "moskvichka.ru",
+      "genre": "мнение",
+      "dominant_topic": 5
+    },
+    {
+      "id": 142,
+      "source": "moskvichka.ru",
+      "genre": "тенденции",
+      "dominant_topic": 8
+    },
+    {
+      "id": 143,
+      "source": "moskvichka.ru",
+      "genre": "тенденции",
+      "dominant_topic": 8
+    },
+    {
+      "id": 144,
+      "source": "frwf.ru",
+      "genre": "тенденции",
+      "dominant_topic": 8
+    },
+    {
+      "id": 145,
+      "source": "frwf.ru",
+      "genre": "тенденции",
+      "dominant_topic": 8
+    },
+    {
+      "id": 146,
+      "source": "frwf.ru",
+      "genre": "выбор",
+      "dominant_topic": 8
+    },
+    {
+      "id": 147,
+      "source": "frwf.ru",
+      "genre": "выбор",
+      "dominant_topic": 3
+    },
+    {
+      "id": 148,
+      "source": "marieclaire.ru",
+      "genre": "тенденции",
+      "dominant_topic": 3
+    },
+    {
+      "id": 149,
+      "source": "marieclaire.ru",
+      "genre": "тенденции",
+      "dominant_topic": 3
+    },
+    {
+      "id": 150,
+      "source": "marieclaire.ru",
+      "genre": "тенденции",
+      "dominant_topic": 3
+    },
+    {
+      "id": 151,
+      "source": "marieclaire.ru",
+      "genre": "тенденции",
+      "dominant_topic": 3
+    },
+    {
+      "id": 152,
+      "source": "marieclaire.ru",
+      "genre": "тенденции",
+      "dominant_topic": 7
+    },
+    {
+      "id": 153,
+      "source": "marieclaire.ru",
+      "genre": "тенденции",
+      "dominant_topic": 3
+    },
+    {
+      "id": 154,
+      "source": "posta-magazine.ru",
+      "genre": "герои/репортаж",
+      "dominant_topic": 1
+    },
+    {
+      "id": 155,
+      "source": "posta-magazine.ru",
+      "genre": "коллекции",
+      "dominant_topic": 3
+    },
+    {
+      "id": 156,
+      "source": "posta-magazine.ru",
+      "genre": "выбор/дайджест",
+      "dominant_topic": 7
+    },
+    {
+      "id": 157,
+      "source": "posta-magazine.ru",
+      "genre": "выбор/дайджест",
+      "dominant_topic": 7
+    },
+    {
+      "id": 158,
+      "source": "posta-magazine.ru",
+      "genre": "индустрия",
+      "dominant_topic": 4
+    },
+    {
+      "id": 159,
+      "source": "posta-magazine.ru",
+      "genre": "коллекции",
+      "dominant_topic": 3
+    },
+    {
+      "id": 160,
+      "source": "mnenie-red.ru",
+      "genre": "тенденции",
+      "dominant_topic": 8
+    },
+    {
+      "id": 161,
+      "source": "mnenie-red.ru",
+      "genre": "тенденции",
+      "dominant_topic": 3
+    },
+    {
+      "id": 162,
+      "source": "mnenie-red.ru",
+      "genre": "коллекции",
+      "dominant_topic": 5
+    },
+    {
+      "id": 163,
+      "source": "thesymbol.ru",
+      "genre": "тенденции",
+      "dominant_topic": 8
+    },
+    {
+      "id": 164,
+      "source": "thesymbol.ru",
+      "genre": "тенденции",
+      "dominant_topic": 3
+    },
+    {
+      "id": 165,
+      "source": "thesymbol.ru",
+      "genre": "тенденции",
+      "dominant_topic": 3
+    },
+    {
+      "id": 166,
+      "source": "thesymbol.ru",
+      "genre": "выбор",
+      "dominant_topic": 8
+    },
+    {
+      "id": 167,
+      "source": "theblueprint.ru",
+      "genre": "тенденции",
+      "dominant_topic": 6
+    },
+    {
+      "id": 168,
+      "source": "theblueprint.ru",
+      "genre": "тенденции",
+      "dominant_topic": 6
+    },
+    {
+      "id": 169,
+      "source": "theblueprint.ru",
+      "genre": "шопинг",
+      "dominant_topic": 8
+    },
+    {
+      "id": 170,
+      "source": "theblueprint.ru",
+      "genre": "шопинг",
+      "dominant_topic": 8
+    },
+    {
+      "id": 171,
+      "source": "theblueprint.ru",
+      "genre": "тенденции",
+      "dominant_topic": 6
+    },
+    {
+      "id": 172,
+      "source": "theblueprint.ru",
+      "genre": "шопинг",
+      "dominant_topic": 6
+    },
+    {
+      "id": 173,
+      "source": "theblueprint.ru",
+      "genre": "шопинг",
+      "dominant_topic": 6
+    },
+    {
+      "id": 174,
+      "source": "thesymbol.ru",
+      "genre": "выбор",
+      "dominant_topic": 8
+    },
+    {
+      "id": 175,
+      "source": "thesymbol.ru",
+      "genre": "тенденции",
+      "dominant_topic": 8
+    },
+    {
+      "id": 176,
+      "source": "thesymbol.ru",
+      "genre": "выбор",
+      "dominant_topic": 8
+    },
+    {
+      "id": 177,
+      "source": "thesymbol.ru",
+      "genre": "икона стиля",
+      "dominant_topic": 8
+    },
+    {
+      "id": 178,
+      "source": "thesymbol.ru",
+      "genre": "икона стиля",
+      "dominant_topic": 4
+    },
+    {
+      "id": 179,
+      "source": "thesymbol.ru",
+      "genre": "икона стиля",
+      "dominant_topic": 8
+    },
+    {
+      "id": 180,
+      "source": "mnenie-red.ru",
+      "genre": "коллекции",
+      "dominant_topic": 2
+    },
+    {
+      "id": 181,
+      "source": "mnenie-red.ru",
+      "genre": "коллекции",
+      "dominant_topic": 2
+    },
+    {
+      "id": 182,
+      "source": "mnenie-red.ru",
+      "genre": "коллекции",
+      "dominant_topic": 2
+    },
+    {
+      "id": 183,
+      "source": "mnenie-red.ru",
+      "genre": "коллекции",
+      "dominant_topic": 2
+    },
+    {
+      "id": 184,
+      "source": "mnenie-red.ru",
+      "genre": "коллекции",
+      "dominant_topic": 2
+    },
+    {
+      "id": 185,
+      "source": "mnenie-red.ru",
+      "genre": "тенденции",
+      "dominant_topic": 6
+    },
+    {
+      "id": 186,
+      "source": "mnenie-red.ru",
+      "genre": "тенденции",
+      "dominant_topic": 4
+    },
+    {
+      "id": 187,
+      "source": "snob.ru",
+      "genre": "тенденции",
+      "dominant_topic": 5
+    },
+    {
+      "id": 188,
+      "source": "snob.ru",
+      "genre": "мнение",
+      "dominant_topic": 1
+    },
+    {
+      "id": 189,
+      "source": "thesymbol.ru",
+      "genre": "выбор/дайджест",
+      "dominant_topic": 7
+    },
+    {
+      "id": 190,
+      "source": "thesymbol.ru",
+      "genre": "выбор/дайджест",
+      "dominant_topic": 7
+    },
+    {
+      "id": 191,
+      "source": "thesymbol.ru",
+      "genre": "выбор/дайджест",
+      "dominant_topic": 7
+    },
+    {
+      "id": 192,
+      "source": "thesymbol.ru",
+      "genre": "выбор/дайджест",
+      "dominant_topic": 7
+    },
+    {
+      "id": 193,
+      "source": "thesymbol.ru",
+      "genre": "выбор/дайджест",
+      "dominant_topic": 7
+    },
+    {
+      "id": 194,
+      "source": "thesymbol.ru",
+      "genre": "выбор/дайджест",
+      "dominant_topic": 7
+    },
+    {
+      "id": 195,
+      "source": "theblueprint.ru",
+      "genre": "индустрия",
+      "dominant_topic": 1
+    },
+    {
+      "id": 196,
+      "source": "theblueprint.ru",
+      "genre": "индустрия/гид",
+      "dominant_topic": 7
+    },
+    {
+      "id": 197,
+      "source": "theblueprint.ru",
+      "genre": "коллекции",
+      "dominant_topic": 5
+    },
+    {
+      "id": 198,
+      "source": "theblueprint.ru",
+      "genre": "коллекции",
+      "dominant_topic": 5
+    },
+    {
+      "id": 199,
+      "source": "theblueprint.ru",
+      "genre": "коллекции",
+      "dominant_topic": 5
+    },
+    {
+      "id": 200,
+      "source": "theblueprint.ru",
+      "genre": "коллекции",
+      "dominant_topic": 4
+    },
+    {
+      "id": 201,
+      "source": "theblueprint.ru",
+      "genre": "индустрия",
+      "dominant_topic": 5
+    },
+    {
+      "id": 202,
+      "source": "theblueprint.ru",
+      "genre": "индустрия",
+      "dominant_topic": 5
+    },
+    {
+      "id": 203,
+      "source": "theblueprint.ru",
+      "genre": "герои",
+      "dominant_topic": 5
+    }
+  ]
+}

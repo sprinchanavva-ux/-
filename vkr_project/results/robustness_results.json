@@ -1,0 +1,28 @@
+{
+ "ari_vs_base_mean": 0.245,
+ "ari_vs_base_min": 0.165,
+ "ari_vs_base_max": 0.283,
+ "nmi_vs_base_mean": 0.348,
+ "ari_pairwise_mean": 0.308,
+ "purity_base": 0.45,
+ "purity_runs_mean": 0.42,
+ "purity_null_mean": 0.364,
+ "purity_null_p95": 0.376,
+ "k_scan": {
+  "4": {
+   "perplexity": 2557.6
+  },
+  "6": {
+   "perplexity": 2617.5
+  },
+  "8": {
+   "perplexity": 2698.2
+  },
+  "10": {
+   "perplexity": 2712.7
+  },
+  "12": {
+   "perplexity": 2782.6
+  }
+ }
+}
