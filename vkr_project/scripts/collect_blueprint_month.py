@@ -74,7 +74,18 @@ def read_sitemap(url, depth=0):
     content = r.content
     if url.endswith(".gz"):
         content = gzip.decompress(content)
-    root = ET.fromstring(content)
+    try:
+        root = ET.fromstring(content)
+    except ET.ParseError:
+        # некорректный XML (например, неэкранированные символы в адресах): разбираем регулярными выражениями
+        txt = content.decode("utf-8", errors="ignore")
+        for m in re.finditer(r"<url>(.*?)</url>", txt, flags=re.S):
+            loc = re.search(r"<loc>(.*?)</loc>", m.group(1), flags=re.S)
+            lm = re.search(r"<lastmod>(.*?)</lastmod>", m.group(1), flags=re.S)
+            if loc:
+                out.append((loc.group(1).strip().replace("&amp;", "&"), lm.group(1).strip() if lm else ""))
+        print(f"  sitemap разобран без XML-парсера: {url} ({len(out)} адресов)", file=sys.stderr)
+        return out
     ns = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9"}
     if root.tag.endswith("sitemapindex") and depth < 3:
         for sm in root.findall("s:sitemap", ns):
@@ -115,6 +126,7 @@ def main():
     ap.add_argument("--delay", type=float, default=2.0)
     ap.add_argument("--out", default=".")
     ap.add_argument("--skip-robots-check", action="store_true", help="ТОЛЬКО для локального теста")
+    ap.add_argument("--no-lastmod-filter", action="store_true", help="не отсеивать адреса по lastmod из sitemap (медленнее)")
     a = ap.parse_args()
 
     log = []
@@ -126,8 +138,9 @@ def main():
 
     # 1. robots.txt
     sitemaps = []
+    rp = None
     if not a.skip_robots_check:
-        allowed, sitemaps, _ = check_robots(a.base, a.section)
+        allowed, sitemaps, rp = check_robots(a.base, a.section)
         print(f"robots.txt: раздел {a.section} {'разрешён' if allowed else 'ЗАПРЕЩЁН'} для автоматического сбора")
         if not allowed:
             print("Остановка: сбор в запрещённом разделе не выполняется.")
@@ -146,7 +159,22 @@ def main():
                 cand.setdefault(u, "")
     print(f"Кандидатов в списках: {len(cand)}")
 
-    # 3. раздел
+    # 2а. предфильтр по lastmod: статья, опубликованная в месяце M, имеет lastmod не раньше начала M
+    if not a.no_lastmod_filter:
+        for u, lm in list(cand.items()):
+            if lm and lm[:7] < a.month:
+                note(u, "исключён", f"lastmod {lm[:10]} раньше {a.month}", date_source="sitemap:lastmod")
+                del cand[u]
+        print(f"После предфильтра по lastmod: {len(cand)}")
+
+    # 3. раздел (и правила robots.txt для каждого адреса)
+    for u in list(cand):
+        if rp is not None and not rp.can_fetch(UA, u):
+            note(u, "исключён", "запрещено в robots.txt")
+            del cand[u]
+        elif urlparse(u).query:
+            note(u, "исключён", "адрес с параметрами запроса")
+            del cand[u]
     sec = [u for u in cand if urlparse(u).path.startswith(a.section)]
     for u in cand:
         if u not in sec:
